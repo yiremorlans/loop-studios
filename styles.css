@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 ul, a {
@@ -23,5 +24,24 @@ header > h1 {
     font-variant: small-caps;
     line-height: 70%; /*return to this*/
     border: 1px solid #ffff;
-    padding: .5em;
+    padding: 2vw 4vw;
+}
+
+header {
+    /* padding-left: 5vw;
+    padding-bottom: 5vw; */
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav > ul {
+    display: flex;
+    width: fit-content;
+}
+
+li {
+    /* padding: .5vw; */
+    flex-flow: row nowrap;
 }
