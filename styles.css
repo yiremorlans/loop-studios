@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+ul, a {
+    color: #ffff;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero {
+    width: 100vw;
+    background: no-repeat url(images/desktop/image-hero.jpg);
+    background-size: cover;
+    color: #ffff;
+}
+
+header > h1 {
+    width: 25vw;
+    font-size: 6.8rem;
+    font-weight: 200;
+    font-variant: small-caps;
+    line-height: 70%; /*return to this*/
+    border: 1px solid #ffff;
+    padding: .5em;
+}
