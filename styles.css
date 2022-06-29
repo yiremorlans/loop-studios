@@ -1,13 +1,19 @@
-html {
-    font-size: 62.5%;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
-ul, a {
-    color: #ffff;
-    text-decoration: none;
-    list-style: none;
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    overflow-x: hidden;
 }
 
 .hero {
@@ -17,14 +23,27 @@ ul, a {
     color: #ffff;
 }
 
+ul, a {
+    color: #ffff;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-header {
+    margin: 2em 4em 0 0;
+}
+
+nav > ul > li {
+    padding-left: 1em;
+}
+
 header > h1 {
-    width: 25vw;
+    width:25vw;
     font-size: 6.8rem;
-    font-weight: 200;
+    font-weight: 100;
     font-variant: small-caps;
-    line-height: 70%; /*return to this*/
     border: 1px solid #ffff;
-    padding: 2vw 4vw;
+    padding: 25px;
 }
 
 header {
