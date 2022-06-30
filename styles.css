@@ -119,8 +119,8 @@ h2 + a {
     position: absolute;
     right: 3vw;
     padding: .5em 2em;
-    color: black;
-    border: 1px solid black;
+    color: #000000;
+    border: 1px solid #000000;
     margin-right: 10vw;
 }
 
