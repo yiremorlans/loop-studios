@@ -13,6 +13,7 @@ html {
 
 body {
     font-size: 1.6rem;
+    font-family: 'Quicksand', sans-serif;
     overflow-x: hidden;
 }
 
@@ -54,6 +55,7 @@ header > h1 {
     font-size: 6.8rem;
     font-weight: 100;
     font-variant: small-caps;
+    line-height: .7;
     border: 1px solid #ffff;
     padding: 2vw;
     margin: 8vw 0 0 10vw;
@@ -106,7 +108,7 @@ SECTION W/IMAGES
     padding: 2vw;
 }
 
-section > a {
+section > a, div > a {
     font-variant: small-caps;
 }
 
@@ -128,14 +130,26 @@ h2 + a {
     display: flex;
     flex-flow: row wrap;
     margin: auto;
-    padding: 2vw;
-    gap: 0 .1em;
+    padding: 4vw;
 }
 
 .item {
     display: flex;
     flex-flow: column wrap;
+    margin: 2vw auto;
+}
+
+img + a {
+    font-size: 3.5rem;
     margin: auto;
+    color: #ffffff;
+    height: 4rem;
+    margin-top: -6rem;
+    z-index: 100;
+}
+
+img{
+    max-width: 100%;
 }
 
 /*******************
@@ -143,5 +157,6 @@ FOOTER
 ********************/
 
 footer{
+    color: #ffffff;
     background: #000000;
 }
