@@ -42,7 +42,7 @@ nav > ul, a {
 
 .nav-header > li {
     flex-flow: row nowrap;
-    padding-left: 1em;
+    padding-left: 1.5em;
 }
 
 header > nav {
@@ -130,7 +130,7 @@ h2 + a {
     display: flex;
     flex-flow: row wrap;
     margin: auto;
-    padding: 4vw;
+    padding: 8vw;
 }
 
 .item {
@@ -140,6 +140,7 @@ h2 + a {
 }
 
 img + a {
+    width: 4rem;
     font-size: 3.5rem;
     margin: auto;
     color: #ffffff;
@@ -157,6 +158,53 @@ FOOTER
 ********************/
 
 footer{
+    position: relative;
     color: #ffffff;
+    padding: 2vw;
     background: #000000;
+}
+
+.nav-footer{
+    width: fit-content;
+    margin-top: 2em;
+    display: flex;
+}
+
+footer > * {
+    margin: 0 10vw;
+}
+
+.ft-logo, i {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+i{
+    padding-left: .5em;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -2vw;
+}
+
+.nav-footer > li {
+    padding-right: 1.5em;
+}
+
+nav + span {
+    position: absolute;
+    right: 1.5vw;
+    bottom: 2vw;
+    margin-right: 10vw;
+    color: #505050;
+}
+
+.attribution{
+    padding-top: 1vw;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-start;
+    color: #505050;
 }
