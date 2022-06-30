@@ -52,7 +52,7 @@ header > nav {
 
 header > h1 {
     width: 30vw;
-    font-size: 6.8rem;
+    font-size: 7.0rem;
     font-weight: 100;
     font-variant: small-caps;
     line-height: .7;
@@ -78,19 +78,31 @@ MAIN SECTION
 ***********************/
 h2{
     font-variant: small-caps;
-    font-size: 4.8rem;
+    font-size: 6.8rem;
+    line-height: .7;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
 }
 
 main {
     padding: 2vw;
 }
 
+p{  
+    color:#505050;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
 .main-section {
     display: inline-block;
     width: 40vw;
-    padding: 6vw;
+    padding: 5vw;
     background: #ffff;
-    margin-left: -10em;
+    margin-left: -8em;
 }
 
 main > img {
@@ -121,16 +133,18 @@ h2 + a {
     position: absolute;
     right: 3vw;
     padding: .5em 2em;
+    font-weight: 600;
     color: #000000;
     border: 1px solid #000000;
     margin-right: 10vw;
+    margin-top: 1vw;
 }
 
 .card-content {
     display: flex;
     flex-flow: row wrap;
     margin: auto;
-    padding: 8vw;
+    padding: 2vw 8vw;
 }
 
 .item {
