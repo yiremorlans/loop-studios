@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.1.6"
+  },
+  "name": "loopstudios-copy",
+  "description": "![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "npx tailwindcss -i ./style.css -o ./tailwind.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiremorlans/loop-studios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yiremorlans/loop-studios/issues"
+  },
+  "homepage": "https://github.com/yiremorlans/loop-studios#readme"
+}
