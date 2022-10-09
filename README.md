@@ -1,6 +1,6 @@
 # Loopstudios
 
-Loopstudios is a mock landing page that features immersive gaming and VR technologies. 
+Loopstudios gaming company landing page that features immersive gaming and VR technologies. 
 
 **Link to project:** https://yiremorlans.github.io/loop-studios/
 
